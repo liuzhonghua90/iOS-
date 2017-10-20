@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		6607D4661D35E7790065B5BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6607D4651D35E7790065B5BF /* main.m */; };
 		6607D4691D35E7790065B5BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6607D4681D35E7790065B5BF /* AppDelegate.m */; };
-		6607D46C1D35E7790065B5BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6607D46B1D35E7790065B5BF /* ViewController.m */; };
 		6607D46F1D35E7790065B5BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6607D46D1D35E7790065B5BF /* Main.storyboard */; };
 		6607D4711D35E7790065B5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6607D4701D35E7790065B5BF /* Assets.xcassets */; };
 		6607D4741D35E7790065B5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6607D4721D35E7790065B5BF /* LaunchScreen.storyboard */; };
+		6607D4811D35E79C0065B5BF /* SettingMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6607D47C1D35E79C0065B5BF /* SettingMainViewController.m */; };
+		6607D4821D35E79C0065B5BF /* SettingMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6607D47D1D35E79C0065B5BF /* SettingMainViewController.xib */; };
+		6607D4C81D35E8260065B5BF /* EMSBLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6607D4C71D35E8260065B5BF /* EMSBLEManager.m */; };
+		668374FC1F99E20B00E3BFC2 /* BLEUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 668374FB1F99E20B00E3BFC2 /* BLEUtility.m */; };
+		66A5D16A1D49D7370026C7BE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A5D1691D49D7370026C7BE /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,18 @@
 		6607D4651D35E7790065B5BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6607D4671D35E7790065B5BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6607D4681D35E7790065B5BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6607D46A1D35E7790065B5BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6607D46B1D35E7790065B5BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6607D46E1D35E7790065B5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6607D4701D35E7790065B5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6607D4731D35E7790065B5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6607D4751D35E7790065B5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6607D47B1D35E79C0065B5BF /* SettingMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingMainViewController.h; sourceTree = "<group>"; };
+		6607D47C1D35E79C0065B5BF /* SettingMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingMainViewController.m; sourceTree = "<group>"; };
+		6607D47D1D35E79C0065B5BF /* SettingMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingMainViewController.xib; sourceTree = "<group>"; };
+		6607D4C61D35E8260065B5BF /* EMSBLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSBLEManager.h; sourceTree = "<group>"; };
+		6607D4C71D35E8260065B5BF /* EMSBLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSBLEManager.m; sourceTree = "<group>"; };
+		668374FA1F99E20B00E3BFC2 /* BLEUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEUtility.h; sourceTree = "<group>"; };
+		668374FB1F99E20B00E3BFC2 /* BLEUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEUtility.m; sourceTree = "<group>"; };
+		66A5D1691D49D7370026C7BE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A5D16A1D49D7370026C7BE /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,7 @@
 		6607D4581D35E7790065B5BF = {
 			isa = PBXGroup;
 			children = (
+				66A5D1691D49D7370026C7BE /* AVFoundation.framework */,
 				6607D4631D35E7790065B5BF /* EMSDemo */,
 				6607D4621D35E7790065B5BF /* Products */,
 			);
@@ -58,10 +70,12 @@
 		6607D4631D35E7790065B5BF /* EMSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6607D4C51D35E7F20065B5BF /* SDK */,
 				6607D4671D35E7790065B5BF /* AppDelegate.h */,
 				6607D4681D35E7790065B5BF /* AppDelegate.m */,
-				6607D46A1D35E7790065B5BF /* ViewController.h */,
-				6607D46B1D35E7790065B5BF /* ViewController.m */,
+				6607D47B1D35E79C0065B5BF /* SettingMainViewController.h */,
+				6607D47C1D35E79C0065B5BF /* SettingMainViewController.m */,
+				6607D47D1D35E79C0065B5BF /* SettingMainViewController.xib */,
 				6607D46D1D35E7790065B5BF /* Main.storyboard */,
 				6607D4701D35E7790065B5BF /* Assets.xcassets */,
 				6607D4721D35E7790065B5BF /* LaunchScreen.storyboard */,
@@ -77,6 +91,17 @@
 				6607D4651D35E7790065B5BF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6607D4C51D35E7F20065B5BF /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				668374FA1F99E20B00E3BFC2 /* BLEUtility.h */,
+				668374FB1F99E20B00E3BFC2 /* BLEUtility.m */,
+				6607D4C61D35E8260065B5BF /* EMSBLEManager.h */,
+				6607D4C71D35E8260065B5BF /* EMSBLEManager.m */,
+			);
+			path = SDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +135,7 @@
 				TargetAttributes = {
 					6607D4601D35E7790065B5BF = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8TLJ533VPE;
 					};
 				};
 			};
@@ -136,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6607D4821D35E79C0065B5BF /* SettingMainViewController.xib in Resources */,
 				6607D4741D35E7790065B5BF /* LaunchScreen.storyboard in Resources */,
 				6607D4711D35E7790065B5BF /* Assets.xcassets in Resources */,
 				6607D46F1D35E7790065B5BF /* Main.storyboard in Resources */,
@@ -149,9 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6607D46C1D35E7790065B5BF /* ViewController.m in Sources */,
+				6607D4811D35E79C0065B5BF /* SettingMainViewController.m in Sources */,
+				6607D4C81D35E8260065B5BF /* EMSBLEManager.m in Sources */,
 				6607D4691D35E7790065B5BF /* AppDelegate.m in Sources */,
 				6607D4661D35E7790065B5BF /* main.m in Sources */,
+				668374FC1F99E20B00E3BFC2 /* BLEUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +292,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8TLJ533VPE;
 				INFOPLIST_FILE = EMSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.meilixun.EMSDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meilixun.EMSDemo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +308,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8TLJ533VPE;
 				INFOPLIST_FILE = EMSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.meilixun.EMSDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meilixun.EMSDemo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +339,7 @@
 				6607D47A1D35E7790065B5BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
